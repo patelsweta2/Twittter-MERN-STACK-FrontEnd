@@ -24,7 +24,7 @@ app.use(cookieParser());
 app.use("/api/auth", authRouter);
 
 app.get("/", (req, res) => {
-  res.send("everything fine");
+  res.send("API is working");
 });
 
 module.exports = app;
