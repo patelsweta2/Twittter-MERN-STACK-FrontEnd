@@ -79,9 +79,31 @@ const refreshAccessTokenController = asyncHandler(async (req, res) => {
   if (!refreshToken) {
     return res.status(403).json({ message: "Unauthorized" });
   }
+  await jwt.verify(
+    refreshToken,
+    constants.REFRESH_TOKEN_SECRET,
+    asyncHandler(async (error, decoded) => {
+      if (error) {
+        return res.status(403).json(error);
+      }
+      //we have encoded the user id in the refresh token
+      // we will get the user by that id
+      const user = await User.findById(decoded.id);
+      if (!user) {
+        res.status(401);
+        throw new Error(
+          "REFRESH CONTROLLER || You are making an unauthorized request."
+        );
+      }
+      const accessToken = await user.generateAccessToken();
+      console.log("REFRESH CONTROLLER || access token sent");
+      return res.status(200).json({ accessToken, userId: user._id });
+    })
+  );
 });
 
 module.exports = {
   registerController,
   loginController,
+  refreshAccessTokenController,
 };
