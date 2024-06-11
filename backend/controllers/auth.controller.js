@@ -102,8 +102,21 @@ const refreshAccessTokenController = asyncHandler(async (req, res) => {
   );
 });
 
+const resetPasswordController = asyncHandler(async (req, res) => {
+  const { email, password } = req.body;
+  const [user] = await User.find({ email });
+  if (!user) {
+    res.status(400);
+    throw new Error("Email not found");
+  }
+  user.password = password;
+  const updatedUser = await user.save();
+  res.status(200).json({ msg: "Password change successfully", success: true });
+});
+
 module.exports = {
   registerController,
   loginController,
   refreshAccessTokenController,
+  resetPasswordController,
 };
