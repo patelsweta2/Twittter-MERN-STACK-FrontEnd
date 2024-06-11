@@ -114,9 +114,20 @@ const resetPasswordController = asyncHandler(async (req, res) => {
   res.status(200).json({ msg: "Password change successfully", success: true });
 });
 
+const logoutController = asyncHandler(async (req, res) => {
+  res.cookie(constants.COOKIE_NAME, "", {
+    httpOnly: true,
+    secure: true,
+    expires: new Date(0),
+    sameSite: "none",
+  });
+  res.status(200).json("User logout successfully");
+});
+
 module.exports = {
   registerController,
   loginController,
+  logoutController,
   refreshAccessTokenController,
   resetPasswordController,
 };
