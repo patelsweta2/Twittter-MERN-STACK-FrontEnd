@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import PresistLogin from "./components/PresistLogin.jsx";
+import PersistLogin from "./components/PersistLogin.jsx";
 import AuthLayout from "./layouts/AuthLayout.jsx";
 const RegisterPage = React.lazy(() => import("./pages/RegisterPage.jsx"));
 const LoginPage = React.lazy(() => import("./pages/LoginPage.jsx"));
