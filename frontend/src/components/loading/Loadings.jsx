@@ -1,6 +1,6 @@
 import React from "react";
 
-const Loading = () => {
+const Loadings = () => {
   return (
     <div className="w-full grid place-items-center h-screen">
       <span className="loading"></span>
@@ -8,4 +8,4 @@ const Loading = () => {
   );
 };
 
-export default Loading;
+export default Loadings;

@@ -1,7 +1,7 @@
 import React from "react";
 
-const UserFullName = () => {
-  return <div>UserFullName</div>;
+const UserFullName = ({ className, fullName }) => {
+  return <span className={className}>{fullName}</span>;
 };
 
 export default UserFullName;

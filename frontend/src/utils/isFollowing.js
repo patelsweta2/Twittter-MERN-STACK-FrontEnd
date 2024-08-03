@@ -1,7 +1,8 @@
-import React from "react";
-
-const isFollowing = () => {
-  return <div>isFollowing</div>;
+export const isFollowingUser = (currentUser, userId) => {
+  return currentUser?.followings.some((followingUser) =>
+    Object.keys(followingUser).some(
+      (key) =>
+        followingUser.hasOwnProperty(key) && followingUser[key] === userId
+    )
+  );
 };
-
-export default isFollowing;

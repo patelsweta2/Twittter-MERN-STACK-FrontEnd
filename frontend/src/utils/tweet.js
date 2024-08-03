@@ -1,7 +1,9 @@
-import React from "react";
+import { format, formatDistance } from "date-fns";
 
-const tweet = () => {
-  return <div>tweet</div>;
+export const formatTweetDate = (createdAt, updatedAt) => {
+  if (createdAt !== updatedAt) {
+    return format(new Date(updatedAt || Date.now()), "do LLLL yyyy");
+  } else {
+    return format(new Date(createdAt || Date.now()), "do LLLL yyyy");
+  }
 };
-
-export default tweet;
