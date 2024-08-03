@@ -4,7 +4,7 @@ import { GoBookmark, GoBookmarkFill } from "react-icons/go";
 import { useSelector } from "react-redux";
 import { useSaveTweetMutation } from "../../features/api/tweetsApiSlice";
 import { getSavedTweets } from "../../features/slice/tweetsSlice";
-import AddToBookmark from "../ToastComponent/AddToBookmark";
+import AddToBookmark from "../ToastComponent/AddToBookMarks";
 import RemoveFromBookmark from "../ToastComponent/RemoveFromBookmark";
 
 const TweetBookmarkBtn = ({ tweetId }) => {

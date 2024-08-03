@@ -2,7 +2,7 @@ import React from "react";
 import toast from "react-hot-toast";
 import { MdDeleteOutline } from "react-icons/md";
 import { useDeleteTweetMutation } from "../../features/api/tweetsApiSlice";
-import DeleteTweetToast from "../ToastComponent/DeleteTweetToast";
+import DeleteTweetToast from "../ToastComponent/DeleteTweetsToast";
 
 const TweetDeleteBtn = ({ tweetId, currentUserId, tweet }) => {
   const [deleteTweet, { isLoading }] = useDeleteTweetMutation();
