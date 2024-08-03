@@ -14,7 +14,7 @@ const NotAuthorized = () => {
       <p className="text-sm font-semibold text-neutral-500 my-4">
         It seems you don&apos;t have permission to access this page.
       </p>
-      <Link to="/auth/login" className="font-extrabold text-pink-500 text-xl">
+      <Link to="/auth/login" className="font-extrabold text-green-500 text-xl">
         Continue login
       </Link>
     </article>

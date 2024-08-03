@@ -8,7 +8,7 @@ const FormRows = ({ children, error }) => {
         className={`flex items-center bg-neutral-200/40 p-4 w-full rounded text-neutral-500 font-medium  ${
           error
             ? "outline outline-1 outline-red-600"
-            : "focus-within:outline focus-within:outline-1 focus-within:outline-pink-400"
+            : "focus-within:outline focus-within:outline-1 focus-within:outline-green-400"
         }`}
       >
         {children}

@@ -14,7 +14,7 @@ const ErrorPage = () => {
         of other things {accessToken ? " on our " : " once "}
         <Link
           to={!accessToken ? "/auth/login" : "/"}
-          className="text-pink-500 px-1 hover:underline"
+          className="text-green-500 px-1 hover:underline"
         >
           {!accessToken ? "Login" : "homepage"}
         </Link>

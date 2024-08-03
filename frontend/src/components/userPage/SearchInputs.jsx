@@ -81,7 +81,7 @@ const SearchInputs = () => {
         </div>
         <button
           type="button"
-          className="text-neutral-400 text-lg hover:text-pink-500 transition-colors ease-in-out duration-200"
+          className="text-neutral-400 text-lg hover:text-green-500 transition-colors ease-in-out duration-200"
           onClick={handleClearSearch}
         >
           <IoCloseCircle />

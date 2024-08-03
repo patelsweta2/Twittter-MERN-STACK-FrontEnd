@@ -19,7 +19,7 @@ const TweetLoadingsSkeleton = () => {
             </div>
           </div>
           <div className="absolute top-2 right-10 flex items-center gap-2"></div>
-          <div className=" w-[30px] h-[60px] aspect-video rounded-tl-full rounded-bl-full bg-pink-500/70 pl-4"></div>
+          <div className=" w-[30px] h-[60px] aspect-video rounded-tl-full rounded-bl-full bg-green-500/70 pl-4"></div>
         </article>
       ))}
     </div>

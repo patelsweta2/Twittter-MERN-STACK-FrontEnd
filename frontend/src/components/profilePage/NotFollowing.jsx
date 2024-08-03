@@ -14,7 +14,7 @@ const NoFollowing = () => {
         </p>
         <span
           type="button"
-          className="rounded text-pink-500 font-extrabold text-3xl"
+          className="rounded text-green-500 font-extrabold text-3xl"
         >
           No Followings
         </span>

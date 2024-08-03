@@ -58,7 +58,7 @@ const ProfilePage = () => {
               />
             </div>
             <Link
-              className="text-2xl text-neutral-500 hover:text-pink-500 transition-colors ease-in-out duration-200 mr-4 p-2"
+              className="text-2xl text-neutral-500 hover:text-green-500 transition-colors ease-in-out duration-200 mr-4 p-2"
               to="/saved"
             >
               <button className="relative">

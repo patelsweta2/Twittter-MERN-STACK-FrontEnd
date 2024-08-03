@@ -103,7 +103,7 @@ const CreateTweetCard = () => {
                 <CstmCircularProgressBar wordCount={wordCount} />
                 <button
                   type="submit"
-                  className="w-24 max-sm:text-sm text-base bg-pink-500 px-4 py-1 rounded-full font-medium text-white disabled:bg-pink-700 disabled:text-neutral-200 hover:bg-pink-600 transition-colors ease-in-out duration-200"
+                  className="w-24 max-sm:text-sm text-base bg-green-500 px-4 py-1 rounded-full font-medium text-white disabled:bg-green-700 disabled:text-neutral-200 hover:bg-green-600 transition-colors ease-in-out duration-200"
                   disabled={wordCount?.length === 0}
                 >
                   {buttonText}
@@ -114,7 +114,7 @@ const CreateTweetCard = () => {
         </div>
       </div>
 
-      <div className=" w-[30px] h-[60px] aspect-video rounded-tl-full rounded-bl-full bg-pink-500/70 pl-4"></div>
+      <div className=" w-[30px] h-[60px] aspect-video rounded-tl-full rounded-bl-full bg-green-500/70 pl-4"></div>
     </article>
   );
 };

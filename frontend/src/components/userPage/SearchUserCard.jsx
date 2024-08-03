@@ -31,7 +31,7 @@ const SearchUserCard = ({ user }) => {
         </div>
       </div>
       <div>
-        <button className="text-neutral-300 group-hover:text-pink-500">
+        <button className="text-neutral-300 group-hover:text-green-500">
           <FaChevronRight />
         </button>
       </div>

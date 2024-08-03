@@ -6,12 +6,12 @@ import { getAccessToken } from "../../features/slice/authSlice";
 const LogoText = () => {
   const currentAccessToken = useSelector(getAccessToken);
   return currentAccessToken ? (
-    <Link className="font-bold text-pink-400 text-2xl" to="/">
-      TweetX
+    <Link className="font-bold text-green-400 text-2xl" to="/">
+      BuzzBlab
     </Link>
   ) : (
-    <Link className="font-bold text-pink-400 text-2xl" to="/auth/login">
-      TweetX
+    <Link className="font-bold text-green-400 text-2xl" to="/auth/login">
+      BuzzBlab
     </Link>
   );
 };

@@ -9,7 +9,7 @@ const FormSubmitButtons = ({ text, isLoading, isSuccess }) => {
   }
   return (
     <button
-      className="px-6 py-2 bg-pink-500/80 text-white font-medium text-sm rounded-md shadow-lg grid place-items-center w-40 disabled:bg-pink-800/60"
+      className="px-6 py-2 bg-green-500/80 text-white font-medium text-sm rounded-md shadow-lg grid place-items-center w-40 disabled:bg-green-800/60"
       disabled={isLoading}
     >
       {content}

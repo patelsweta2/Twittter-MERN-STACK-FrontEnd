@@ -30,10 +30,10 @@ const TweetBookmarkBtn = ({ tweetId }) => {
     <div className="text-neutral-500 hover:text-neutral-700 p-1 rounded-full">
       <button
         onClick={handleBookMarkTweet}
-        className="hover:bg-pink-100 hover:text-pink-500 p-2 rounded-full transition-colors duration-200 ease-in-out"
+        className="hover:bg-green-100 hover:text-green-500 p-2 rounded-full transition-colors duration-200 ease-in-out"
       >
         {isTweetSaved ? (
-          <GoBookmarkFill className="text-pink-400" />
+          <GoBookmarkFill className="text-green-400" />
         ) : (
           <GoBookmark />
         )}

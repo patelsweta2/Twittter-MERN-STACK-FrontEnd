@@ -9,7 +9,7 @@ const TweetModalCloseBtn = () => {
   return (
     <div className="flex justify-end text-xl ">
       <button
-        className="hover:bg-pink-500/20 hover:text-pink-700 transition-colors ease-in-out duration-200 p-1 rounded-full"
+        className="hover:bg-green-500/20 hover:text-green-700 transition-colors ease-in-out duration-200 p-1 rounded-full"
         onClick={() => dispatch(toggleShowModal())}
       >
         <IoClose />

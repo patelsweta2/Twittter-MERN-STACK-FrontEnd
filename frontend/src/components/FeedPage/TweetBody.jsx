@@ -7,7 +7,7 @@ const TweetBody = ({ children }) => {
     >
       {children}
 
-      <div className=" w-[30px] h-[60px] aspect-video rounded-tl-full rounded-bl-full bg-pink-500/70 pl-4"></div>
+      <div className=" w-[30px] h-[60px] aspect-video rounded-tl-full rounded-bl-full bg-green-500/70 pl-4"></div>
     </article>
   );
 };
