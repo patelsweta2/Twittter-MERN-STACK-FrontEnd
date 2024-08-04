@@ -6,7 +6,7 @@ import {
 } from "../../features/slice/tweetsSlice";
 import FormContainer from "../FormComponents/FormContainers";
 import FormHeader from "../FormComponents/FormHeaders";
-import Modal from "./Modal";
+import Modal from "./Modalss";
 import TweetModalCloseBtn from "./TweetModalCloseBtn";
 import TweetUpdateForm from "./TweetUpdateForm";
 

@@ -1,6 +1,6 @@
 import React from "react";
-import SingleUser from "../../UsersPage/SingleUser";
-import NoFollowers from "../ProfileSection/NoFollowers";
+import SingleUser from "../UserPage/SingleUsers";
+import NoFollowers from "./ProfileSection/NotFollowers";
 const Followers = ({ followers }) => {
   let content;
   if (followers?.length === 0) {

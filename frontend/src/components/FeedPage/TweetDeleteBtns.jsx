@@ -4,7 +4,7 @@ import { MdDeleteOutline } from "react-icons/md";
 import { useDeleteTweetMutation } from "../../features/api/tweetsApiSlice";
 import DeleteTweetToast from "../ToastComponent/DeleteTweetsToast";
 
-const TweetDeleteBtn = ({ tweetId, currentUserId, tweet }) => {
+const TweetDeleteBtns = ({ tweetId, currentUserId, tweet }) => {
   const [deleteTweet, { isLoading }] = useDeleteTweetMutation();
 
   const handleDelete = async () => {
@@ -35,4 +35,4 @@ const TweetDeleteBtn = ({ tweetId, currentUserId, tweet }) => {
   );
 };
 
-export default TweetDeleteBtn;
+export default TweetDeleteBtns;

@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import CreateTweetCard from "../components/FeedPage/CreateTweetCard";
-import SingleTweet from "../components/FeedPage/SingleTweet";
+import SingleTweet from "../components/FeedPage/SingleTweets";
 import TweetLoadingSkeleton from "../components/Loading/TweetLoadingsSkeleton";
 import TweetModal from "../components/Modals/TweetModals";
 import LogoText from "../components/NavBar/LogoText";

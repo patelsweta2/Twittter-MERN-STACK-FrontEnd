@@ -1,7 +1,7 @@
 import React from "react";
 import { MdGroups } from "react-icons/md";
 
-const NoUsers = () => {
+const NoUser = () => {
   return (
     <article className="mt-20  text-neutral-500  flex flex-col items-center gap-4 w-full">
       <MdGroups className="text-[12rem] rounded-full outline outline-offset-4 outline-neutral-500/40" />
@@ -14,4 +14,4 @@ const NoUsers = () => {
   );
 };
 
-export default NoUsers;
+export default NoUser;

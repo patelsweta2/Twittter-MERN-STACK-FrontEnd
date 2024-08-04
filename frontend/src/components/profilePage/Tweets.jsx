@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
-import { getSavedTweets } from "../../../features/slice/tweetsSlice";
-import SingleTweet from "../../FeedPage/SingleTweet";
-import NoTweets from "./NoTweets";
+import { getSavedTweets } from "../../features/slice/tweetsSlice";
+import SingleTweet from "../FeedPage/SingleTweets";
+import NoTweets from "./ProfileSection/NoTweets";
 
 const Tweets = ({ tweets }) => {
   const savedTweets = useSelector(getSavedTweets);

@@ -2,7 +2,7 @@ import React from "react";
 import { FaUser } from "react-icons/fa";
 import UserName from "../User/UserName";
 
-const UserNotFound = ({ userName }) => {
+const UserNotFounds = ({ userName }) => {
   return (
     <div className="flex flex-col items-start gap-6 py-2 w-full">
       <div className="flex items-start gap-4">
@@ -19,4 +19,4 @@ const UserNotFound = ({ userName }) => {
   );
 };
 
-export default UserNotFound;
+export default UserNotFounds;

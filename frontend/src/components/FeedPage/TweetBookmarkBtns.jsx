@@ -7,7 +7,7 @@ import { getSavedTweets } from "../../features/slice/tweetsSlice";
 import AddToBookmark from "../ToastComponent/AddToBookMarks";
 import RemoveFromBookmark from "../ToastComponent/RemoveFromBookmark";
 
-const TweetBookmarkBtn = ({ tweetId }) => {
+const TweetBookmarkBtns = ({ tweetId }) => {
   const [saveTweet] = useSaveTweetMutation();
   const savedTweets = useSelector(getSavedTweets);
   const [isTweetSaved, setIsTweetSaved] = useState(
@@ -42,4 +42,4 @@ const TweetBookmarkBtn = ({ tweetId }) => {
   );
 };
 
-export default TweetBookmarkBtn;
+export default TweetBookmarkBtns;

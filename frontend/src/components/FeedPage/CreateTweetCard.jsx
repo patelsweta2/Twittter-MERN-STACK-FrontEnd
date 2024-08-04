@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 import TextareaAutosize from "react-textarea-autosize";
 import { useCreateTweetMutation } from "../../features/api/tweetsApiSlice";
 import { getCurrentUser } from "../../features/slice/usersSlice";
-import CstmCircularProgressBar from "../CustomComponent/CstmCircularProgressBar";
+import CstmCircularProgressBar from "../CustomComponents/CstmCircularProgressBar";
 import UserAvatar from "../User/UserAvatar";
 
 const CreateTweetCard = () => {

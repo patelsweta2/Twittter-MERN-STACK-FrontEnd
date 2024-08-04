@@ -10,7 +10,7 @@ import {
   getTweetToUpdate,
   toggleShowModal,
 } from "../../features/slice/tweetsSlice";
-import CstmCircularProgressBar from "../CustomComponent/CstmCircularProgressBar";
+import CstmCircularProgressBar from "../../components/CustomComponents/CstmCircularProgressBar";
 import FormRow from "../FormComponents/FormRows";
 import FormSubmitButton from "../FormComponents/FormSubmitButtons";
 import TweetModalDate from "./TweetModalDate";

@@ -11,7 +11,7 @@ import UserFullName from "../User/UserFullName";
 import UserInfo from "../User/UserInfos";
 import UserName from "../User/UserName";
 
-const SingleUser = ({ userId }) => {
+const SingleUsers = ({ userId }) => {
   const singleUser = useSelector((state) => selectById(state, userId));
   const currentUser = useSelector(getCurrentUser);
 
@@ -75,4 +75,4 @@ const SingleUser = ({ userId }) => {
   );
 };
 
-export default SingleUser;
+export default SingleUsers;

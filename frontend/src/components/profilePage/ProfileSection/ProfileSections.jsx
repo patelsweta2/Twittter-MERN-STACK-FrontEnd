@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Followers from "./Followers";
-import Following from "./Following";
-import Tweets from "./Tweets";
+import Followers from "../Followers";
+import Following from "../Following";
+import Tweets from "../Tweets";
 
-const ProfileSection = ({ tweets, followers, followings }) => {
+const ProfileSections = ({ tweets, followers, followings }) => {
   const tabs = ["tweets", "followers", "following"];
   const [activeTab, setActiveTab] = useState(tabs[0]);
 
@@ -44,4 +44,4 @@ const ProfileSection = ({ tweets, followers, followings }) => {
   );
 };
 
-export default ProfileSection;
+export default ProfileSections;

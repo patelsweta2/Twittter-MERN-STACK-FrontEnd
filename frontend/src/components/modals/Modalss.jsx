@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { toggleShowModal } from "../../features/slice/tweetsSlice";
 import { toggleShowUserModal } from "../../features/slice/usersSlice";
 
-const Modal = ({ showModal, children, isTweet }) => {
+const Modalss = ({ showModal, children, isTweet }) => {
   const dispatch = useDispatch();
   const modalRef = useRef(null);
   const handleOverlayClick = (e) => {
@@ -36,4 +36,4 @@ const Modal = ({ showModal, children, isTweet }) => {
   );
 };
 
-export default Modal;
+export default Modalss;

@@ -2,11 +2,12 @@ import React from "react";
 import { useSelector } from "react-redux";
 import UserLoadingSkeleton from "../components/Loading/UserLoadingSkeletons";
 import LogoText from "../components/NavBar/LogoText";
-import NoUsers from "../components/UsersPage/NoUsers";
-import SearchInput from "../components/UsersPage/SearchInput";
-import SingleUser from "../components/UsersPage/SingleUser";
+import NoUsers from "../components/UserPage/NoUser";
+import SearchInput from "../components/UserPage/SearchInputs";
+import SingleUser from "../components/UserPage/SingleUsers";
 import { useGetAllUsersQuery } from "../features/api/usersApiSlice";
 import { getCurrentUser } from "../features/slice/usersSlice";
+// import SingleUsers from "./../components/UserPage/SingleUsers";
 
 const UsersPage = () => {
   // changing the first query to undefined resolved the error for the createSelector usersResult in the usersApiSlice

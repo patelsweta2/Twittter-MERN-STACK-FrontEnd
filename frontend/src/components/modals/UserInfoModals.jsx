@@ -9,7 +9,7 @@ import {
 } from "../../features/slice/usersSlice";
 import UserAvatar from "../User/UserAvatar";
 import UserName from "../User/UserName";
-import Modal from "./Modal";
+import Modal from "./Modalss";
 
 const UserInfoModals = () => {
   const dispatch = useDispatch();

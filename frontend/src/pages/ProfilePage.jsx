@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import ProfilePageLoading from "../components/Loading/ProfilePageLoadings";
 import TweetModal from "../components/Modals/TweetModals";
 import CurrUserInfo from "../components/Modals/UserInfoModals";
-import ProfileSection from "../components/ProfilePage/ProfileSection/ProfileSection";
+import ProfileSection from "../components/ProfilePage/ProfileSection/ProfileSections";
 import UserAvatar from "../components/User/UserAvatar";
 import UserFullName from "../components/User/UserFullName";
 import UserInfo from "../components/User/UserInfos";

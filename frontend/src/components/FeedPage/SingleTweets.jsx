@@ -9,13 +9,13 @@ import UserAvatar from "../User/UserAvatar";
 import UserFullName from "../User/UserFullName";
 import UserName from "../User/UserName";
 import TweetBody from "./TweetBody";
-import TweetBookmarkBtn from "./TweetBookmarkBtn";
+import TweetBookmarkBtn from "./TweetBookmarkBtns";
 import TweetContent from "./TweetContent";
-import TweetDeleteBtn from "./TweetDeleteBtn";
+import TweetDeleteBtn from "./TweetDeleteBtns";
 import TweetEditBtn from "./TweetEditBtn";
 import TweetLikeBtn from "./TweetLikeBtn";
 
-const SingleTweet = ({ tweetId }) => {
+const SingleTweets = ({ tweetId }) => {
   const singleTweet = useSelector((state) => selectTweetById(state, tweetId));
   const [date, setDate] = useState(null);
   const currentUserId = useSelector(getCurrentUserId);
@@ -95,4 +95,4 @@ const SingleTweet = ({ tweetId }) => {
   );
 };
 
-export default SingleTweet;
+export default SingleTweets;
