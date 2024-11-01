@@ -7,7 +7,7 @@ import NavLinks from "./NavLinks";
 
 const Navbar = () => {
   return (
-    <nav className="py-3 shadow-md px-[5%] md:px-[10%] md:flex md:items-center md:justify-between hidden bg-transparent w-full">
+    <nav className="py-3 shadow-md px-[5%] md:px-[10%] md:flex md:items-center md:justify-between hidden bg-black w-full">
       <LogoText />
 
       <div className="w-full mx-4">

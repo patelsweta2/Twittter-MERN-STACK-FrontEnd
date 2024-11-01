@@ -94,7 +94,7 @@
   height: 48px;
   border-radius: 50%;
   display: inline-block;
-  border-top: 3px solid rgba(236, 72, 153);
+  border-top: 3px solid rgb(15, 147, 24);
   border-right: 3px solid transparent;
   box-sizing: border-box;
   animation: wait 1s linear infinite;
@@ -116,9 +116,9 @@
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(236, 72, 153, 0.4);
+  background: rgba(13, 112, 28, 0.4);
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(236, 72, 153, 0.6);
+  background: rgba(13, 112, 28, 0.4);
 }

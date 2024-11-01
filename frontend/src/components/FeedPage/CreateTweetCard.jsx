@@ -46,7 +46,7 @@ const CreateTweetCard = () => {
   }
 
   return (
-    <article className="flex items-center justify-between w-full bg-white shadow-md shadow-neutral-200/50 rounded pl-4 py-4">
+    <article className="flex items-center justify-between w-full bg-black shadow-md shadow-neutral-200/50 rounded pl-4 py-4">
       <div className="w-full">
         <div className="w-full flex items-start">
           <div className="flex items-center gap-x-2">
@@ -74,7 +74,7 @@ const CreateTweetCard = () => {
               <TextareaAutosize
                 maxRows={15}
                 minRows={2}
-                className="resize-none w-full bg-transparent outline-none border-none placeholder:text-lg placeholder:font-normal text-neutral-800 font-medium placeholder:max-sm:text-base"
+                className="resize-none w-full bg-transparent outline-none border-none placeholder:text-lg placeholder:font-normal text-white font-medium placeholder:max-sm:text-base"
                 placeholder="What is happening?!"
                 maxLength={210}
                 {...register("content", {
