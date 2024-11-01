@@ -3,12 +3,12 @@ import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App.jsx";
-import Loading from "./components/Loading/Loadings.jsx";
+import Loadings from "./components/Loading/Loadings.jsx";
 import { store } from "./store.js";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <Suspense fallback={<Loading />}>
+  <Suspense fallback={<Loadings />}>
     <React.StrictMode>
       <Provider store={store}>
         <BrowserRouter>
