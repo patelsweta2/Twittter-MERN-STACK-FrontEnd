@@ -22,7 +22,7 @@ const AuthLayout = () => {
     imgSource = ResetPswd;
   }
   return (
-    <main className="w-full min-h-screen sm:flex sm:items-center sm:justify-center bg-zinc-900">
+    <main className="w-full min-h-screen sm:flex sm:items-center sm:justify-center bg-neutral-600">
       <section className="w-full sm:w-3/5  min-h-screen sm:min-h-fit bg-white py-8 px-10  rounded-lg shadow-md lg:flex lg:justify-between lg:w-2/3 lg:items-center">
         <aside className="flex-1">
           <header className="mb-4">
