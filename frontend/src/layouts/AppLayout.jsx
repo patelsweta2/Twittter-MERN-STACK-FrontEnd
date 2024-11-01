@@ -20,7 +20,7 @@ const AppLayout = () => {
     };
   }, []);
   return (
-    <div className="min-h-screen bg-neutral-50 flex flex-col justify-between items-center md:justify-start h-fit relative">
+    <div className="min-h-screen bg-neutral-100 flex flex-col justify-between items-center md:justify-start h-fit relative">
       <div className="fixed right-2 bottom-20 hidden md:block">
         <Socials />
       </div>
